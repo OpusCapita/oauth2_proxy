@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pusher/oauth2_proxy/logger"
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
+	"github.com/OpusCapita/oauth2_proxy/logger"
+	"github.com/OpusCapita/oauth2_proxy/pkg/apis/sessions"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	admin "google.golang.org/api/admin/directory/v1"

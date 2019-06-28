@@ -12,7 +12,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 	options "github.com/mreiferson/go-options"
-	"github.com/pusher/oauth2_proxy/logger"
+	"github.com/OpusCapita/oauth2_proxy/logger"
 )
 
 func main() {

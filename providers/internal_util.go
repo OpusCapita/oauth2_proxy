@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/pusher/oauth2_proxy/api"
-	"github.com/pusher/oauth2_proxy/logger"
+	"github.com/OpusCapita/oauth2_proxy/api"
+	"github.com/OpusCapita/oauth2_proxy/logger"
 )
 
 // stripToken is a helper function to obfuscate "access_token"

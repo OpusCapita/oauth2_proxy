@@ -13,14 +13,14 @@ import (
 	"github.com/alicebob/miniredis"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/pusher/oauth2_proxy/cookie"
-	"github.com/pusher/oauth2_proxy/pkg/apis/options"
-	sessionsapi "github.com/pusher/oauth2_proxy/pkg/apis/sessions"
-	"github.com/pusher/oauth2_proxy/pkg/cookies"
-	"github.com/pusher/oauth2_proxy/pkg/sessions"
-	sessionscookie "github.com/pusher/oauth2_proxy/pkg/sessions/cookie"
-	"github.com/pusher/oauth2_proxy/pkg/sessions/redis"
-	"github.com/pusher/oauth2_proxy/pkg/sessions/utils"
+	"github.com/OpusCapita/oauth2_proxy/cookie"
+	"github.com/OpusCapita/oauth2_proxy/pkg/apis/options"
+	sessionsapi "github.com/OpusCapita/oauth2_proxy/pkg/apis/sessions"
+	"github.com/OpusCapita/oauth2_proxy/pkg/cookies"
+	"github.com/OpusCapita/oauth2_proxy/pkg/sessions"
+	sessionscookie "github.com/OpusCapita/oauth2_proxy/pkg/sessions/cookie"
+	"github.com/OpusCapita/oauth2_proxy/pkg/sessions/redis"
+	"github.com/OpusCapita/oauth2_proxy/pkg/sessions/utils"
 )
 
 func TestSessionStore(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/pusher/oauth2_proxy/api"
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
+	"github.com/OpusCapita/oauth2_proxy/api"
+	"github.com/OpusCapita/oauth2_proxy/pkg/apis/sessions"
 )
 
 // LinkedInProvider represents an LinkedIn based Identity Provider

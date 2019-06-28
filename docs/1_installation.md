@@ -9,11 +9,11 @@ nav_order: 1
 
 1.  Choose how to deploy:
 
-    a. Download [Prebuilt Binary](https://github.com/pusher/oauth2_proxy/releases) (current release is `v3.2.0`)
+    a. Download [Prebuilt Binary](https://github.com/OpusCapita/oauth2_proxy/releases) (current release is `v3.2.0`)
 
-    b. Build with `$ go get github.com/pusher/oauth2_proxy` which will put the binary in `$GOROOT/bin`
+    b. Build with `$ go get github.com/OpusCapita/oauth2_proxy` which will put the binary in `$GOROOT/bin`
 
-    c. Using the prebuilt docker image [quay.io/pusher/oauth2_proxy](https://quay.io/pusher/oauth2_proxy) (AMD64, ARMv6 and ARM64 tags available)
+    c. Using the prebuilt docker image [opuscapita/oauth2-proxy](https://opuscapita/oauth2-proxy) (AMD64, ARMv6 and ARM64 tags available)
 
 Prebuilt binaries can be validated by extracting the file and verifying it against the `sha256sum.txt` checksum file provided for each release starting with version `v3.0.0`.
 

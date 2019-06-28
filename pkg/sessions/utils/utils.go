@@ -3,8 +3,8 @@ package utils
 import (
 	"encoding/base64"
 
-	"github.com/pusher/oauth2_proxy/cookie"
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
+	"github.com/OpusCapita/oauth2_proxy/cookie"
+	"github.com/OpusCapita/oauth2_proxy/pkg/apis/sessions"
 )
 
 // CookieForSession serializes a session state for storage in a cookie

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pusher/oauth2_proxy/logger"
-	"github.com/pusher/oauth2_proxy/pkg/apis/options"
+	"github.com/OpusCapita/oauth2_proxy/logger"
+	"github.com/OpusCapita/oauth2_proxy/pkg/apis/options"
 )
 
 // MakeCookie constructs a cookie from the given parameters,

@@ -5,11 +5,13 @@ RUN wget -O $GOPATH/bin/dep https://github.com/golang/dep/releases/download/v0.5
 RUN chmod +x $GOPATH/bin/dep
 
 # Copy sources
-WORKDIR $GOPATH/src/github.com/pusher/oauth2_proxy
+WORKDIR $GOPATH/src/github.com/OpusCapita/oauth2_proxy
 COPY . .
 
 # Fetch dependencies
 RUN dep ensure --vendor-only
+
+RUN go get github.com/alecthomas/gometalinter
 
 # Build binary and make sure there is at least an empty key file.
 #  This is useful for GCP App Engine custom runtime builds, because
@@ -22,8 +24,8 @@ RUN ./configure && make build && touch jwt_signing_key.pem
 # Copy binary to alpine
 FROM alpine:3.9
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
-COPY --from=builder /go/src/github.com/pusher/oauth2_proxy/oauth2_proxy /bin/oauth2_proxy
-COPY --from=builder /go/src/github.com/pusher/oauth2_proxy/jwt_signing_key.pem /etc/ssl/private/jwt_signing_key.pem
+COPY --from=builder /go/src/github.com/OpusCapita/oauth2_proxy/oauth2_proxy /bin/oauth2_proxy
+COPY --from=builder /go/src/github.com/OpusCapita/oauth2_proxy/jwt_signing_key.pem /etc/ssl/private/jwt_signing_key.pem
 
 USER 2000:2000
 

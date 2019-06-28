@@ -2,7 +2,7 @@
 
 package main
 
-import "github.com/pusher/oauth2_proxy/logger"
+import "github.com/OpusCapita/oauth2_proxy/logger"
 
 func WatchForUpdates(filename string, done <-chan bool, action func()) {
 	logger.Printf("file watching not implemented on this platform")

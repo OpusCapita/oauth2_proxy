@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pusher/oauth2_proxy/logger"
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
+	"github.com/OpusCapita/oauth2_proxy/logger"
+	"github.com/OpusCapita/oauth2_proxy/pkg/apis/sessions"
 )
 
 // GitHubProvider represents an GitHub based Identity Provider

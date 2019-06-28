@@ -1,7 +1,7 @@
 package options
 
 import (
-	"github.com/pusher/oauth2_proxy/cookie"
+	"github.com/OpusCapita/oauth2_proxy/cookie"
 )
 
 // SessionOptions contains configuration options for the SessionStore providers.

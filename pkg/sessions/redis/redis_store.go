@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	"github.com/pusher/oauth2_proxy/cookie"
-	"github.com/pusher/oauth2_proxy/pkg/apis/options"
-	"github.com/pusher/oauth2_proxy/pkg/apis/sessions"
-	"github.com/pusher/oauth2_proxy/pkg/cookies"
+	"github.com/OpusCapita/oauth2_proxy/cookie"
+	"github.com/OpusCapita/oauth2_proxy/pkg/apis/options"
+	"github.com/OpusCapita/oauth2_proxy/pkg/apis/sessions"
+	"github.com/OpusCapita/oauth2_proxy/pkg/cookies"
 )
 
 // TicketData is a structure representing the ticket used in server session storage

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pusher/oauth2_proxy/logger"
+	"github.com/OpusCapita/oauth2_proxy/logger"
 )
 
 // Server represents an HTTP server

@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/pusher/oauth2_proxy/logger"
+	"github.com/OpusCapita/oauth2_proxy/logger"
 	"golang.org/x/crypto/bcrypt"
 )
 
